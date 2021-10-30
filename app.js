@@ -1,7 +1,6 @@
 /*
  Authors: Dannicah Salazar
  Your name and student #: A00957776
- (Make sure you also specify on the Google Doc)
 */
 const express = require("express");
 let app = express();
