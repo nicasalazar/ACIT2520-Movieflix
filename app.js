@@ -48,7 +48,7 @@ app.get("/search/:movieName", (req, res) => {
         };
       };
       res.render("pages/searchResult", { 
-        movieNameList: null, description: "Movie not found"
+        movieNameList: null, description: "Movie could not be found"
       });
     };
   });
